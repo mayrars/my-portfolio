@@ -1,12 +1,17 @@
+import Headerbar from './components/Headerbar'
 import './globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-export default function RootLayout({ children }) {
+export default function RootLayout ({ children }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <head>
         <title>Portfolio</title>
       </head>
-      <body>{children}</body>
+      <body>
+        <Headerbar />
+        {children}
+      </body>
     </html>
   )
 }

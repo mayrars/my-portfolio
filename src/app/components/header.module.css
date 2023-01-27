@@ -1,0 +1,15 @@
+
+.header {
+  background: var(--primary);
+  font-family: var(--font-text);
+  margin-bottom: 2rem;
+}
+.header a {
+  color: var(--secondary2);
+  font-weight: 500;
+}
+.header a:hover,
+.header a:visited,
+.header a:focus{
+  color: var(--secondary1);
+}

@@ -1,0 +1,7 @@
+.image{
+  min-height: 250px;
+}
+.cardplaceholder{
+  height: auto;
+  background: var(--gray);
+}
