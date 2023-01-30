@@ -1,8 +1,6 @@
-
 .header {
   background: var(--primary);
   font-family: var(--font-text);
-  margin-bottom: 2rem;
 }
 .header a {
   color: var(--secondary2);
