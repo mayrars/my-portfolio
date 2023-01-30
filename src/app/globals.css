@@ -9,9 +9,19 @@
   --font-text: 'Montserrat';
   --font-head: 'Barlow Condensed';
 }
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--font-head);
+  font-weight: bold;
+}
 h1{
   color: var(--secondary1);
-  font-family: var(--font-head);
   font-size: 2rem;
-  font-weight: bold;
+}
+h2{
+  color: var(--secondary1);
+  font-size: 1.8rem;
+}
+.principal_layout{
+  background: url('/assets/circles.svg') left bottom no-repeat, url('/assets/points.svg') 90% 50px  no-repeat, var(--secondary3);
+  height: 100vh;
 }
