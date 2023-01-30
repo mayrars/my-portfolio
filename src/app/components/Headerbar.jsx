@@ -1,6 +1,7 @@
 'use client'
 
-import { Navbar, Container, NavbarBrand, Nav, NavLink } from 'react-bootstrap'
+import Link from 'next/link'
+import { Navbar, Container, NavbarBrand, Nav } from 'react-bootstrap'
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse'
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle'
 
@@ -14,9 +15,9 @@ export default function Headerbar () {
         <NavbarToggle aria-controls='basic-navbar-nav' />
         <NavbarCollapse id='navigate'>
           <Nav className='me-auto'>
-            <NavLink href='/'>Home</NavLink>
-            <NavLink href='/aboutme'>About me</NavLink>
-            <NavLink href='/projects'>Projects</NavLink>
+            <Link className='nav-link' href='/'>Home</Link>
+            <Link className='nav-link' href='/aboutme'>About me</Link>
+            <Link className='nav-link' href='/projects'>Projects</Link>
           </Nav>
         </NavbarCollapse>
       </Container>
