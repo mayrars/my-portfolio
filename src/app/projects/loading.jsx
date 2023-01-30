@@ -1,3 +1,10 @@
+'use client'
+import { Container, Placeholder } from 'react-bootstrap';
+
 export default function Loading () {
-  return 'Loading projects...'
+  return (
+    <Container>
+      <Placeholder />
+    </Container>
+  )
 }

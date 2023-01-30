@@ -1,3 +1,4 @@
+'use client'
 import { Placeholder } from 'react-bootstrap'
 
 export default function Loading () {
