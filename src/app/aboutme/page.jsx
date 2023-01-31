@@ -41,16 +41,15 @@ export default function AboutPage () {
       <section>
         <h2>Education</h2>
         <h3>BUAP, Puebla</h3>
-        <p>2010-2011</p>
+        <p className='cursive'>2010-2011</p>
         <p>Diplomado en Tecnologías de la Información</p>
         <h3>BUAP, Puebla</h3>
-        <p>2005-2010</p>
+        <p className='cursive'>2005-2010</p>
         <p>Ingeniería en Ciencias de la Computación</p>
         <h3>Centro de Sistemas Computacionales, Puebla</h3>
-        <p>2001-2003</p>
+        <p className='cursive'>2001-2003</p>
         <p>Carrera Técnica Sistemas Computacionales</p>
       </section>
-      
     </Container>
   )
 }
