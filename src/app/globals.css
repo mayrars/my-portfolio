@@ -15,13 +15,32 @@ h1,h2,h3,h4,h5,h6{
 }
 h1{
   color: var(--secondary1);
-  font-size: 2rem;
+  font-size: 2rem!important;
 }
 h2{
   color: var(--secondary1);
   font-size: 1.8rem;
 }
+h3{
+  font-size: 1.3rem!important;
+}
+h4{
+  font-size: 1.2rem!important;
+}
+h5{
+  font-size: 1.1rem!important;
+}
+h5{
+  font-size: 1rem!important;
+}
+.c-2B3A55{ color: #2B3A55; }
+.c-CE7777{ color: #CE7777; }
+
 .principal_layout{
   background: url('/assets/circles.svg') left bottom no-repeat, url('/assets/points.svg') 90% 50px  no-repeat, var(--secondary3);
-  height: 100vh;
+  height: 100%;
+  padding-top: 2rem;
+}
+.cursive{
+  font-style: italic;
 }
