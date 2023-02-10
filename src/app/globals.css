@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;400;700&family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
 :root{
   --primary: #2B3A55; 
@@ -6,6 +7,7 @@
   --secondary2: #E8C4C4; 
   --secondary3: #F2E5E5; 
   --gray: #f1f1f1;
+  --white: #ffffff;
   --font-text: 'Montserrat';
   --font-head: 'Barlow Condensed';
 }
@@ -37,10 +39,17 @@ h5{
 .c-CE7777{ color: #CE7777; }
 
 .principal_layout{
-  background: url('/assets/circles.svg') left bottom no-repeat, url('/assets/points.svg') 90% 50px  no-repeat, var(--secondary3);
+  background: url('/assets/circles.svg') left -150px no-repeat, url('/assets/bottom_back.svg') right bottom/contain no-repeat, var(--secondary3);
   height: 100%;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .cursive{
   font-style: italic;
+}
+.navbar-toggler{
+  color: var(--secondary2)!important;
+}
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26'%3E%3Cg id='icomoon-ignore'%3E%3C/g%3E%3Cpath fill='%23E8C4C4' d='M3.2 6.4h19.2v2.15h-19.2v-2.15zM3.2 13.85v-2.1h19.2v2.1h-19.2zM3.2 19.2v-2.15h19.2v2.15h-19.2z'%3E%3C/path%3E%3C/svg%3E")!important;
 }
