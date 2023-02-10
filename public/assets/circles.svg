@@ -7,20 +7,35 @@
    viewBox="0 0 94.665474 71.17009"
    version="1.1"
    id="svg842"
+   sodipodi:docname="circles.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2016"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
   <defs
      id="defs839" />
   <g
      id="layer1"
-     transform="translate(-72.222345,-174.58021)">
+     transform="translate(-72.222344,-174.58021)"
+     inkscape:highlight-color="#aaaaaa">
     <path
        d="m 72.222344,210.16525 c 0,-19.65289 15.932079,-35.58504 35.585086,-35.58504 19.65325,0 35.5854,15.93215 35.5854,35.58504 0,19.65325 -15.93215,35.58505 -35.5854,35.58505 -19.653007,0 -35.585086,-15.9318 -35.585086,-35.58505"
-       style="fill:#ce7777;fill-opacity:0.561247;fill-rule:nonzero;stroke:none;stroke-width:0.0352778"
+       style="fill:#ce7777;fill-opacity:0.303898;fill-rule:nonzero;stroke:none;stroke-width:0.0352778"
        id="path18" />
     <path
        d="m 125.41703,212.01063 c 0,-11.45222 9.28335,-20.73557 20.73522,-20.73557 11.45187,0 20.73557,9.28335 20.73557,20.73557 0,11.45188 -9.2837,20.73522 -20.73557,20.73522 -11.45187,0 -20.73522,-9.28334 -20.73522,-20.73522"
-       style="fill:#e8c4c4;fill-opacity:0.552013;fill-rule:nonzero;stroke:none;stroke-width:0.0352778"
+       style="fill:#e8c4c4;fill-opacity:0.34554;fill-rule:nonzero;stroke:none;stroke-width:0.0352778"
        id="path20" />
   </g>
 </svg>
