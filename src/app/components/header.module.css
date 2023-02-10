@@ -11,3 +11,14 @@
 .header a:focus{
   color: var(--secondary1);
 }
+.logo{
+  font-family: 'Bad Script', Arial, Helvetica, sans-serif;
+  font-size: 22px!important;
+  color: var(--secondary2)!important;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgb(0 0 0 / 30%);
+}
+.logo:hover, .logo:focus,
+.logo:visited{
+  color: var(--secondary2);
+}
