@@ -11,7 +11,7 @@ export default function Headerbar () {
   return (
     <Navbar className={styles.header} expand='lg' sticky='top'>
       <Container>
-        <NavbarBrand>Portfolio</NavbarBrand>
+        <NavbarBrand href='/' className={styles.logo}>MR</NavbarBrand>
         <NavbarToggle aria-controls='basic-navbar-nav' />
         <NavbarCollapse id='navigate'>
           <Nav className='me-auto'>
